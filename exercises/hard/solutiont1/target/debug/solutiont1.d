@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/hard/solutiont1/target/debug/solutiont1: /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont1/src/conjecture.rs /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont1/src/main.rs

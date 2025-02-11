@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/hard/solutiont4/target/debug/solutiont4: /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont4/src/calc_time.rs /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont4/src/main.rs

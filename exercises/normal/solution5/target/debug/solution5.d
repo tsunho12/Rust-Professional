@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/normal/solution5/target/debug/solution5: /Users/tsunho/github/Rust-Professional/exercises/normal/solution5/src/fibnacci.rs /Users/tsunho/github/Rust-Professional/exercises/normal/solution5/src/main.rs

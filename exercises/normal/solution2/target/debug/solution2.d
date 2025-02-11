@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/normal/solution2/target/debug/solution2: /Users/tsunho/github/Rust-Professional/exercises/normal/solution2/src/converter.rs /Users/tsunho/github/Rust-Professional/exercises/normal/solution2/src/main.rs

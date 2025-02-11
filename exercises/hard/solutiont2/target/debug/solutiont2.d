@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/hard/solutiont2/target/debug/solutiont2: /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont2/src/main.rs /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont2/src/prime_factor.rs

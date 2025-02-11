@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/normal/solution3/target/debug/solution3: /Users/tsunho/github/Rust-Professional/exercises/normal/solution3/src/calc_logic.rs /Users/tsunho/github/Rust-Professional/exercises/normal/solution3/src/main.rs

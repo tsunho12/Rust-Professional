@@ -1,1 +1,0 @@
-/Users/tsunho/github/Rust-Professional/exercises/hard/solutiont3/target/debug/solutiont3: /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont3/src/district.rs /Users/tsunho/github/Rust-Professional/exercises/hard/solutiont3/src/main.rs
