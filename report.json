@@ -32,13 +32,13 @@
     },
     {
       "name": "algorithm7.rs",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 1
     },
     {
       "name": "algorithm8.rs",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 1
     },
     {
       "name": "algorithm9.rs",
@@ -47,18 +47,18 @@
     },
     {
       "name": "algorithm10.rs",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 1
     },
     {
       "name": "algorithm11.rs",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 1
     },
     {
       "name": "algorithm12.rs",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 1
     },
     {
       "name": "algorithm13.rs",
@@ -153,9 +153,9 @@
   ],
   "statistics": {
     "total_exercises": 30,
-    "total_successes": 15,
-    "total_failures": 15,
-    "total_score": 76,
-    "total_time": 46
+    "total_successes": 20,
+    "total_failures": 10,
+    "total_score": 81,
+    "total_time": 74
   }
 }

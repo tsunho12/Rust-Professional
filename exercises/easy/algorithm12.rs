@@ -12,8 +12,14 @@
 use std::fmt::{self, Display, Formatter};
 
 pub fn is_palindrome(s: String) -> bool {
-    // TODO: Implement the logic to check if the string is a palindrome
-    false // Placeholder return value
+    // 过滤出字母字符并转换为小写
+    let normalized: String = s
+        .chars()
+        .filter(|c| c.is_alphabetic())
+        .map(|c| c.to_ascii_lowercase())
+        .collect();
+    // 检查归一化后的字符串是否与其反转后的字符串相同
+    normalized == normalized.chars().rev().collect::<String>()
 }
 
 #[cfg(test)]
