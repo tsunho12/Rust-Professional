@@ -41,19 +41,23 @@ impl Graph for UndirectedGraph {
 
     fn add_edge(&mut self, edge: (&str, &str, i32)) {
         let (from, to, weight) = edge;
-        // 确保两个节点都在图中
+        // Ensure both nodes are in the graph
         self.add_node(from);
         self.add_node(to);
 
-        // 在 from 节点的邻接列表中添加 to 节点
+        // Add edge from -> to
         let from_adj_list = self.adjacency_table_mutable().get_mut(from).unwrap();
-        if !from_adj_list.iter().any(|(n, _)| n == to) {
+        if let Some((_, existing_weight)) = from_adj_list.iter_mut().find(|(n, _)| n == to) {
+            *existing_weight = weight; // Update weight if edge exists
+        } else {
             from_adj_list.push((to.to_string(), weight));
         }
 
-        // 在 to 节点的邻接列表中添加 from 节点
+        // Add edge to -> from
         let to_adj_list = self.adjacency_table_mutable().get_mut(to).unwrap();
-        if !to_adj_list.iter().any(|(n, _)| n == from) {
+        if let Some((_, existing_weight)) = to_adj_list.iter_mut().find(|(n, _)| n == from) {
+            *existing_weight = weight; // Update weight if edge exists
+        } else {
             to_adj_list.push((from.to_string(), weight));
         }
     }
@@ -104,7 +108,7 @@ mod test_undirected_graph {
         ];
 
         for edge in expected_edges.iter() {
-            assert_eq!(graph.edges().contains(edge), true);
+            assert!(graph.edges().contains(edge));
         }
     }
 }
