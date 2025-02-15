@@ -142,8 +142,8 @@
     },
     {
       "name": "solutiont4",
-      "result": false,
-      "score": 0
+      "result": true,
+      "score": 10
     },
     {
       "name": "solutiont5",
@@ -153,16 +153,9 @@
   ],
   "statistics": {
     "total_exercises": 30,
-<<<<<<< HEAD
-    "total_successes": 20,
-    "total_failures": 10,
-    "total_score": 81,
-    "total_time": 74
-=======
-    "total_successes": 0,
-    "total_failures": 30,
-    "total_score": 0,
-    "total_time": 5
->>>>>>> upstream/main
+    "total_successes": 21,
+    "total_failures": 9,
+    "total_score": 91,
+    "total_time": 60
   }
 }
